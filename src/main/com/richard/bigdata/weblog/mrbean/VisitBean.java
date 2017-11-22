@@ -121,5 +121,6 @@ public class VisitBean implements Writable {
 	@Override
 	public String toString() {
 		return session + "\001" + remote_addr + "\001" + inTime + "\001" + outTime + "\001" + inPage + "\001" + outPage + "\001" + referal + "\001" + pageVisits;
+	
 	}
 }
